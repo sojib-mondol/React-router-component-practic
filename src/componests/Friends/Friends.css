@@ -1,0 +1,33 @@
+.friends {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+@media only screen and (max-width: 1200px) {
+    .friends{
+        display: grid;
+        grid-template-columns:  repeat(4, 1fr);
+    }
+  }
+
+  
+  @media only screen and (max-width: 992px) {
+    .friends{
+        display: grid;
+        grid-template-columns:  repeat(3, 1fr);
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .friends{
+        display: grid;
+        grid-template-columns:  repeat(2, 1fr);
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    .friends{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+  }
+
